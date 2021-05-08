@@ -53,8 +53,6 @@ public class Autorizacion {
 		Date fecha = format.parse(FechaVigente);
 		Date objDate = new Date(); 
 		
-		
-		System.out.println(objDate + " " + fecha + " ");
 			if (objDate.before(fecha)) {
 				Estado = true;
 			} else {
